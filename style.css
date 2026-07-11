@@ -3,8 +3,9 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 
-    /* common style */
+    
 }
+/* common style */
 .container{
     max-width: 1320px;
     margin: auto;
@@ -17,6 +18,23 @@
     border-radius: 7px;
 }
 
+.inline-button{
+    background-color: #ffffff;
+    color: #1D4ED8;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 30px ;
+    border: 1px solid #1D4ED8;
+    border-radius: 7px;
+
+}
+
+span{
+    color: #1D4ED8;
+}
+
     /* common style */
 
 nav{
@@ -26,18 +44,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 15px;
-}
-ul li a{
+.nav-menu a{
     text-decoration: none;
     color: #575757;
+    padding: 10px;
+    
 }
 
-/* hero style  */
+.nav-menu{
+    
+}
 
 .hero-container{
     display: grid;
@@ -77,7 +93,6 @@ ul li a{
     border-radius: 7px;
  }
 
-
  /* meet the speaker style */
 
  .speaker-container{
@@ -100,6 +115,7 @@ text-align: left;
     margin: auto;
 border: 1px solid #5757572f;
 border-radius: 10px;
+overflow: hidden;
 
 }
 
@@ -111,8 +127,85 @@ border-radius: 10px;
     padding: 5px;
 
 }
-.card-title{
-    color: #1D4ED8;
+ /* meet the speaker style */
+
+ /* pricing style */
+
+ .price-parent{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .price-parent p{
+    color: #575757;
+ }
+ .sub-heading{
+    font-size: 48px;
+margin: 60px 0px 10px 0px;
+
+ }
+
+ .price-box-parent{
+    margin-top: 40px;
+    display: flex;
+justify-content: center;
+gap: 20px;
+box-sizing: border-box;
+
+ }
+.price-box{
+    text-align: left;
+    width: 280px;
+    border: 1px solid #5757572f;
+    border-radius: 7px;
+   padding: 40px;
 }
 
- /* meet the speaker style */
+.card-info h2{
+font-size: 50px;
+}
+.card-info{
+    padding-left: -60px;
+}
+
+.card-info p{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.card-content ul{
+ padding-left:18px;
+}
+.card-content li{
+    margin-bottom:10px;
+    font-size:14px;
+    color:#555;
+}
+
+/* Blue Bullet */
+
+.card-content li::marker{
+    color:#2F6BFF;
+}
+hr{
+    margin:25px 0;
+    color: #E5E7EB;
+}
+
+.price-box-middle{
+    background-color: #0D1B2A;
+}
+.price-box-middle button{
+    color: white;
+    background-color: #1D4ED8;
+}
+.price-box-middle h2{
+    color: white;
+}
+.price-box-middle p{
+    color: white;
+}
+.price-box-middle ul li{
+
+    color: white;
+}
+
+ /* pricing style */
