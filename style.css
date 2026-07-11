@@ -45,10 +45,12 @@ ul li a{
     text-align: center;
     color: white;
     height: 700px;
-    background-image: url(./media/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("./media/banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .hero-up{
@@ -74,3 +76,43 @@ ul li a{
     border: none;
     border-radius: 7px;
  }
+
+
+ /* meet the speaker style */
+
+ .speaker-container{
+   text-align: center;
+ }
+
+ .speaker-container h2{
+font-size: 36px;
+margin: 60px 0px 30px 0px;
+ }
+
+ .card-parent{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 30px;
+text-align: left;
+ }
+
+.card-box{
+    margin: auto;
+border: 1px solid #5757572f;
+border-radius: 10px;
+
+}
+
+.card-box-child{
+    padding: 15px;
+    gap: 10px;
+}
+.card-box-child h3,p,p{
+    padding: 5px;
+
+}
+.card-title{
+    color: #1D4ED8;
+}
+
+ /* meet the speaker style */
